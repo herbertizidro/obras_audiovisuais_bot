@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     #inicialização do bot
     bot = ObrasBot(browser, portal_url, categorias, veiculo, nome_csv,
-                   "OBRA", "DIRETOR", "VEICULO", "DISTRIBUIDOR", "CLASSIFICACAO")
+                   "OBRA", "DIRETOR", "VEICULO", "DISTRIBUIDOR", "CLASSIFICACAO") #colunas que a base terá
     bot.criaBase() #cria um csv vazio que será preenchido posteriormente
     
     #coleta dos dados no site
