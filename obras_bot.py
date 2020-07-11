@@ -80,7 +80,7 @@ if __name__ != "__main__":
                         aux = 1
                         while True:
                             try:
-                               #acessa a tabela 2, filtra os diretores e novamente a categoria
+                               #acessa a tabela 2, filtra veiculo e novamente a categoria
                                 categoria_tabela2 = self.browser.find_element_by_xpath(
                                     '//*[@id="TRbl_report_ClassificacaoProcessoObraView'+str(aux)+'"]/td[4]'
                                 ).text
