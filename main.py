@@ -25,3 +25,4 @@ if __name__ == "__main__":
     for obra in titulo_obra:
         bot.portalObras(obra)
     bot.limpaBase() #remove linhas repetidas(ocorre pela maneira como o site exibe as informações)
+    
